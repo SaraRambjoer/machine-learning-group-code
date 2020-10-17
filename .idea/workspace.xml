@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fa70f08-4893-4744-a406-a56ce3fbc4bb" name="Default Changelist" comment="" />
+    <list default="true" id="1fa70f08-4893-4744-a406-a56ce3fbc4bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep-12-relu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep-12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deep_weight_logs_average_change_calculator_tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IRIS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/IRIS.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/one_layer.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ixkUmhZI6FweGxxkAxgWx2AZVd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,9 +34,79 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jonod\PycharmProjects\maskinlæring\Logs" />
+      <recent name="C:\Users\jonod\PycharmProjects\maskinlæring\Data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.deep-12-relu">
+    <configuration name="deep-12-relu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="maskinlæring" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep-12-relu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="deep-12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="maskinlæring" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep-12.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="deep_weight_logs_average_change_calculator_tool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="maskinlæring" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deep_weight_logs_average_change_calculator_tool.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="one_layer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="maskinlæring" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -48,6 +130,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.deep-12-relu" />
+        <item itemvalue="Python.deep_weight_logs_average_change_calculator_tool" />
+        <item itemvalue="Python.deep-12" />
         <item itemvalue="Python.one_layer" />
       </list>
     </recent_temporary>
@@ -78,53 +163,77 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="666" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602939750109">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602939750109" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602952163079">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602952163079" />
+    <state x="614" y="115" key="CommitChangelistDialog2" timestamp="1602951172085">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602951172085" />
     <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1602861632126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602861632126" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1602866464666">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1602952571340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602866464666" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1602866464666">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602952571340" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1602952571340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602866464666" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1602866464666">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602952571340" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1602952571340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602866464666" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1602866464666">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602952571340" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1602952571340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602866464666" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1602866441428">
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602952571340" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1602951256121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602866441428" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1602866441428">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602951256121" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1602951256121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602866441428" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1602866441428">
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602951256121" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1602951256121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602866441428" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1602866441428">
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602951256121" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1602951256121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602866441428" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602951256121" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1602861747505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602861747505" />
-    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1602865846623">
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1602947340368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602865846623" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1602861628113">
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602947340368" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1602929903645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602861628113" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602929903645" />
+    <state x="-1151" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602954835360">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1151" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602954835360" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="model01.layers[10].weights" />
+        <watch expression="model01.weights" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

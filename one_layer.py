@@ -6,9 +6,9 @@ import copy
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import LabelEncoder
+tf.keras.backend.set_floatx('float64')
 
-
-iris_flower_dataset = pandas.read_csv('IRIS.csv')
+iris_flower_dataset = pandas.read_csv('Data/IRIS.csv')
 x = iris_flower_dataset.drop(["species"], axis=1) # Create a dataset with only values
 y = iris_flower_dataset["species"].map({'Iris-setosa': 0, 'Iris-versicolor': 1, 'Iris-virginica': 2}) # Create a dataset with only species and map them to integer values
 
@@ -34,22 +34,25 @@ perceptron_model1 = keras.models.Sequential()
 perceptron_model1.add(keras.layers.Dense(1, activation="sigmoid"))
 perceptron_model1.compile(loss="binary_crossentropy", optimizer="adam", metrics=['accuracy']) #use crossentropy for loss, adam optimizer (may change, must describe in report) and accuracy
 # metric (Should also justify this in report)
-perceptron_model1.fit(x1, y1, epochs=300, batch_size=5)
+perceptron_model1.fit(x1, y1, verbose=0, epochs=5000, batch_size=5, callbacks=[tf.keras.callbacks.CSVLogger("Logs/perceptron-versicolor-virginicia.csv")])
 
 perceptron_model2 = keras.models.Sequential()
 perceptron_model2.add(keras.layers.Dense(1, activation="sigmoid"))
 perceptron_model2.compile(loss="binary_crossentropy", optimizer="adam", metrics=['accuracy']) #use crossentropy for loss, adam optimizer (may change, must describe in report) and accuracy
 # metric (Should also justify this in report)
-perceptron_model2.fit(x2, y2, epochs=300, batch_size=5)
+perceptron_model2.fit(x2, y2, verbose=0, epochs=5000, batch_size=5, callbacks=[tf.keras.callbacks.CSVLogger("Logs/perceptron-setosa-virginicia.csv")])
 
 # Create one layer NN with 3 perceptrons, one for each category
 perceptron_model3 = keras.models.Sequential()
 perceptron_model3.add(keras.layers.Dense(1, activation="sigmoid"))
 perceptron_model3.compile(loss="binary_crossentropy", optimizer="adam", metrics=['accuracy']) #use crossentropy for loss, adam optimizer (may change, must describe in report) and accuracy
 # metric (Should also justify this in report)
-perceptron_model3.fit(x3, y3, epochs=300, batch_size=5)
+perceptron_model3.fit(x3, y3, verbose=0, epochs=5000, batch_size=5, callbacks=[tf.keras.callbacks.CSVLogger("Logs/perceptron-setosa-versicolor.csv")])
 
-perceptron_model1.summary()
-perceptron_model2.summary()
-perceptron_model3.summary()
+perceptron_model1.save("models/perceptron-versicolor-virginicia")
+perceptron_model2.save("models/perceptron-setosa-virginicia")
+perceptron_model3.save("models/perceptron-setosa-versicolor")
+#perceptron_model1.summary()
+#perceptron_model2.summary()
+#perceptron_model3.summary()
 
