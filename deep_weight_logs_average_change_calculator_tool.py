@@ -1,5 +1,5 @@
 # Script to calculate average change per layer for deep_weight_logs
-
+# Should be changed to be more useful somehow
 
 def calcDiff(a, b):
     toReturn = 0
@@ -23,15 +23,16 @@ def calc_avg_change_per_layer(filename):
         toLayer = layerVals[i0+1].split(" ")
         toLayer = [ele for ele in toLayer if ele != ""]
         for i1 in range(0, 11):
-            avgChangeByLayer[i1] += calcDiff(fromLayer[i1*9:i1*9+9], toLayer[i1*9:i1*9+9])/9
-    avgChangeByLayer = [ele/len(layerVals) for ele in avgChangeByLayer]
+            avgChangeByLayer[i1] += calcDiff(fromLayer[i1*9:i1*9+9], toLayer[i1*9:i1*9+9])
     return avgChangeByLayer
 
 f = open("avgChangeByLayer.txt", "w")
 for ele in ["deep_weight_logs/01leakyrelu.txt", "deep_weight_logs/001leakyrelu.txt", "deep_weight_logs/0001leakyrelu.txt",
             "deep_weight_logs/00001leakyrelu.txt", "deep_weight_logs/000001leakyrelu.txt", "deep_weight_logs/01sigmoid.txt",
             "deep_weight_logs/001sigmoid.txt", "deep_weight_logs/0001sigmoid.txt",
-            "deep_weight_logs/00001sigmoid.txt", "deep_weight_logs/000001sigmoid.txt"]:
+            "deep_weight_logs/00001sigmoid.txt", "deep_weight_logs/000001sigmoid.txt", "deep_weight_logs/01relu.txt",
+            "deep_weight_logs/001relu.txt", "deep_weight_logs/0001relu.txt",
+            "deep_weight_logs/00001relu.txt", "deep_weight_logs/000001relu.txt"]:
     avgChange = calc_avg_change_per_layer(ele)
     f.writelines([ele + ": ", str(avgChange), "\n"])
 f.close()
