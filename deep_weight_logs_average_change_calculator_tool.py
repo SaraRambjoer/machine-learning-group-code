@@ -1,5 +1,6 @@
 # Script to calculate average change per layer for deep_weight_logs
-# Should be changed to be more useful somehow
+# Intent was to use to demonstrate vanishing gradients but I don't think it is actually useful?
+# Could be changed to be more useful somehow
 
 def calcDiff(a, b):
     toReturn = 0

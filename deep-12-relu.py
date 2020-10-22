@@ -57,15 +57,15 @@ def layerWeightSave(model, fileName):
     f.close()
 
 
-model01.compile(loss="binary_crossentropy", optimizer=sgd01, metrics=['accuracy']) #use crossentropy for loss, sgd optimizer (may change, must describe in report) and accuracy metric (Should also justify this in report)
+model01.compile(loss="categorical_crossentropy", optimizer=sgd01, metrics=['accuracy']) #use crossentropy for loss, sgd optimizer (may change, must describe in report) and accuracy metric (Should also justify this in report)
 model01.fit(x, encoded_Y, verbose=0, epochs=5000, batch_size=32, callbacks=[tf.keras.callbacks.CSVLogger("Logs/deep12-0.1-relu.csv"), logCallback01relu])
-model001.compile(loss="binary_crossentropy", optimizer=sgd001, metrics=['accuracy']) #use crossentropy for loss, sgd optimizer (may change, must describe in report) and accuracy metric (Should also justify this in report)
+model001.compile(loss="categorical_crossentropy", optimizer=sgd001, metrics=['accuracy']) #use crossentropy for loss, sgd optimizer (may change, must describe in report) and accuracy metric (Should also justify this in report)
 model001.fit(x, encoded_Y, verbose=0, epochs=5000, batch_size=32, callbacks=[tf.keras.callbacks.CSVLogger("Logs/deep12-0.01-relu.csv"), logCallback001relu])
-model0001.compile(loss="binary_crossentropy", optimizer=sgd0001, metrics=['accuracy']) #use crossentropy for loss, sgd optimizer (may change, must describe in report) and accuracy metric (Should also justify this in report)
+model0001.compile(loss="categorical_crossentropy", optimizer=sgd0001, metrics=['accuracy']) #use crossentropy for loss, sgd optimizer (may change, must describe in report) and accuracy metric (Should also justify this in report)
 model0001.fit(x, encoded_Y, verbose=0, epochs=5000, batch_size=32, callbacks=[tf.keras.callbacks.CSVLogger("Logs/deep12-0.001-relu.csv"), logCallback0001relu])
-model00001.compile(loss="binary_crossentropy", optimizer=sgd00001, metrics=['accuracy']) #use crossentropy for loss, sgd optimizer (may change, must describe in report) and accuracy metric (Should also justify this in report)
+model00001.compile(loss="categorical_crossentropy", optimizer=sgd00001, metrics=['accuracy']) #use crossentropy for loss, sgd optimizer (may change, must describe in report) and accuracy metric (Should also justify this in report)
 model00001.fit(x, encoded_Y, verbose=0, epochs=5000, batch_size=32, callbacks=[tf.keras.callbacks.CSVLogger("Logs/deep12-0.0001-relu.csv"), logCallback00001relu])
-model000001.compile(loss="binary_crossentropy", optimizer=sgd000001, metrics=['accuracy']) #use crossentropy for loss, sgd optimizer (may change, must describe in report) and accuracy metric (Should also justify this in report)
+model000001.compile(loss="categorical_crossentropy", optimizer=sgd000001, metrics=['accuracy']) #use crossentropy for loss, sgd optimizer (may change, must describe in report) and accuracy metric (Should also justify this in report)
 model000001.fit(x, encoded_Y, verbose=0, epochs=5000, batch_size=32, callbacks=[tf.keras.callbacks.CSVLogger("Logs/deep12-0.00001-relu.csv"), logCallback000001relu])
 
 model01.save("models/deep01-relu")
