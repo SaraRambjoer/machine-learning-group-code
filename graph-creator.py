@@ -345,14 +345,14 @@ create_sigmoid_comparison_graphs()
 def create_perceptron_graphs():
     create_and_save_graph_accuracy(
         ["Logs\\perceptron-setosa-versicolor.csv", "Logs\\perceptron-setosa-virginicia.csv",
-         "Logs\\perceptron-versicolor-virginicia.csv"], ["setosa-versicolor", "setosa-virginicia", "versicolor-virginicia"],
+         "Logs\\perceptron-versicolor-virginicia.csv"], ["setosa-versicolor", "setosa-virginica", "versicolor-virginica"],
         os.path.join(os.path.abspath(os.getcwd()), "graphs\\perceptron-accuracy.png"), "epoch", "accuracy",
-        "Perceptrons", 20)
+        "Perceptrons", 10)
     create_and_save_graph_lossFunc(
         ["Logs\\perceptron-setosa-versicolor.csv", "Logs\\perceptron-setosa-virginicia.csv",
          "Logs\\perceptron-versicolor-virginicia.csv"],
-        ["setosa-versicolor", "setosa-virginicia", "versicolor-virginicia"],
+        ["setosa-versicolor", "setosa-virginica", "versicolor-virginica"],
         os.path.join(os.path.abspath(os.getcwd()), "graphs\\perceptron-lossFunc.png"), "epoch", "binary crossentropy",
-        "Perceptrons", 20)
+        "Perceptrons", 10)
 
 create_perceptron_graphs()
