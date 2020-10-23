@@ -234,7 +234,7 @@ def create_learning_rate_by_activation_function_all_networks():
     create_learning_rate_by_activation_function_shallow150()
 
 # A smoothing of 10 seems to be just right
-# create_learning_rate_by_activation_function_all_networks()
+create_learning_rate_by_activation_function_all_networks()
 # Much clearer by looking at loss function
 # Deep11 leakyrelu: a=0.1
 # Deep11 sigmoid: a=0.1 and a = 0.01 seem basically identical
@@ -251,7 +251,108 @@ def create_activation_function_comparison_deep12():
                                    ["leakyReLu, a=0.1", "sigmoid, a=0.1", "relu, a=0.001"],
                                    os.path.join(os.path.abspath(os.getcwd()),
                                                 "graphs\\deep11-acivation-funcs-smooth20-accuracy.png"), "epoch", "accuracy",
-                                   "Deep11 LeakyReLu learning rates", 20)
+                                   "Deep11 activation functions", 20)
+    create_and_save_graph_lossFunc(
+        ["Logs\\deep12-0.1-leakyrelu.csv", "Logs\\deep12-0.1-sigmoid.csv", "Logs\\deep12-0.001-relu.csv"],
+        ["leakyReLu, a=0.1", "sigmoid, a=0.1", "relu, a=0.001"],
+        os.path.join(os.path.abspath(os.getcwd()),
+                     "graphs\\deep11-acivation-funcs-smooth20-lossfunc.png"), "epoch", "categorical crossentropy",
+        "Deep11 activation functions", 20)
 
+def create_activation_function_comparison_depth3():
+    create_and_save_graph_accuracy(["Logs\\depth3-0.1-leakyrelu.csv", "Logs\\depth3-0.1-sigmoid.csv", "Logs\\depth3-0.01-relu.csv"],
+                                   ["leakyReLu, a=0.1", "sigmoid, a=0.1", "relu, a=0.01"],
+                                   os.path.join(os.path.abspath(os.getcwd()),
+                                                "graphs\\depth3-acivation-funcs-smooth20-accuracy.png"), "epoch", "accuracy",
+                                   "Depth3 activation functions", 20)
+    create_and_save_graph_lossFunc(
+        ["Logs\\depth3-0.1-leakyrelu.csv", "Logs\\depth3-0.1-sigmoid.csv", "Logs\\depth3-0.01-relu.csv"],
+        ["leakyReLu, a=0.1", "sigmoid, a=0.1", "relu, a=0.01"],
+        os.path.join(os.path.abspath(os.getcwd()),
+                     "graphs\\depth3-activation-funcs-smooth20-lossfunc.png"), "epoch", "categorical crossentropy",
+        "Depth3 activation functions", 20)
 
+def create_activation_function_comparison_shallow150():
+    create_and_save_graph_accuracy(["Logs\\shallow150-0.1-leakyrelu.csv", "Logs\\shallow150-0.1-sigmoid.csv", "Logs\\shallow150-0.1-relu.csv"],
+                                   ["leakyReLu, a=0.1", "sigmoid, a=0.1", "relu, a=0.1"],
+                                   os.path.join(os.path.abspath(os.getcwd()),
+                                                "graphs\\shallow150-acivation-funcs-smooth20-accuracy.png"), "epoch", "accuracy",
+                                   "Shallow150 activation functions", 20)
+    create_and_save_graph_lossFunc(
+        ["Logs\\shallow150-0.1-leakyrelu.csv", "Logs\\shallow150-0.1-sigmoid.csv", "Logs\\shallow150-0.01-relu.csv"],
+        ["leakyReLu, a=0.1", "sigmoid, a=0.1", "relu, a=0.01"],
+        os.path.join(os.path.abspath(os.getcwd()),
+                     "graphs\\shallow150-activation-funcs-smooth20-lossfunc.png"), "epoch", "categorical crossentropy",
+        "Shallow150 activation functions", 20)
 
+def create_activation_function_comparison_graphs():
+    create_activation_function_comparison_deep12()
+    create_activation_function_comparison_depth3()
+    create_activation_function_comparison_shallow150()
+
+create_activation_function_comparison_graphs()
+#Deep11: leakyRelu, a=0.1, but interestingly normal relu seems to be going somewhere too
+#depth3: leakyReLu, a=0.1 barely
+#shallow 150: Basically whatever, but leaky_relu, a=0.1 seems like it may be marginally better, but let us pick leakyrelu to compare evenly (although sigmoid actually converges the quickest)
+
+#lossyrelu
+def create_best_comparison_graphs():
+    create_and_save_graph_accuracy(
+        ["Logs\\shallow150-0.1-leakyrelu.csv", "Logs\\depth3-0.1-leakyrelu.csv", "Logs\\deep12-0.1-leakyrelu.csv"],
+        ["shallow 150, leakyrelu, a=0.1", "depth3, leakyrelu, a=0.1", "deep11, leakyrelu, a=0.1"],
+        os.path.join(os.path.abspath(os.getcwd()),
+                     "graphs\\best-hyperparam-model-comparison-accuracy.png"), "epoch", "accuracy",
+        "Model comparison, accuracy", 20)
+    create_and_save_graph_lossFunc(
+        ["Logs\\shallow150-0.1-leakyrelu.csv", "Logs\\depth3-0.1-leakyrelu.csv", "Logs\\deep12-0.1-leakyrelu.csv"],
+        ["shallow 150, leakyrelu, a=0.1", "depth3, leakyrelu, a=0.1", "deep11, leakyrelu, a=0.1"],
+        os.path.join(os.path.abspath(os.getcwd()),
+                     "graphs\\best-hyperparam-model-comparison-lossfunc.png"), "epoch", "categorical crossentropy",
+        "Model comparison, loss", 20)
+
+def create_sigmoid_comparison_graphs():
+    create_and_save_graph_accuracy(
+        ["Logs\\shallow150-0.1-sigmoid.csv", "Logs\\depth3-0.1-sigmoid.csv", "Logs\\deep12-0.1-sigmoid.csv"],
+        ["shallow 150, sigmoid, a=0.1", "depth3, sigmoid, a=0.1", "deep11, sigmoid, a=0.1"],
+        os.path.join(os.path.abspath(os.getcwd()),
+                     "graphs\\sigmoid-model-comparison-accuracy.png"), "epoch", "accuracy",
+        "Model comparison, accuracy", 20)
+    create_and_save_graph_lossFunc(
+        ["Logs\\shallow150-0.1-sigmoid.csv", "Logs\\depth3-0.1-sigmoid.csv", "Logs\\deep12-0.1-sigmoid.csv"],
+        ["shallow 150, sigmoid, a=0.1", "depth3, sigmoid, a=0.1", "deep11, sigmoid, a=0.1"],
+        os.path.join(os.path.abspath(os.getcwd()),
+                     "graphs\\sigmoid-model-comparison-lossfunc.png"), "epoch", "categorical crossentropy",
+        "Model comparison, loss", 20)
+
+def create_relu_comparison_graphs():
+    create_and_save_graph_accuracy(
+        ["Logs\\shallow150-0.1-relu.csv", "Logs\\depth3-0.01-relu.csv", "Logs\\deep12-0.001-relu.csv"],
+        ["shallow 150, relu, a=0.1", "depth3, relu, a=0.1", "deep11, relu, a=0.001"],
+        os.path.join(os.path.abspath(os.getcwd()),
+                     "graphs\\relu-model-comparison-accuracy.png"), "epoch", "accuracy",
+        "Model comparison, accuracy", 20)
+    create_and_save_graph_lossFunc(
+        ["Logs\\shallow150-0.1-relu.csv", "Logs\\depth3-0.01-relu.csv", "Logs\\deep12-0.001-relu.csv"],
+        ["shallow 150, relu, a=0.1", "depth3, relu, a=0.1", "deep11, relu, a=0.1"],
+        os.path.join(os.path.abspath(os.getcwd()),
+                     "graphs\\relu-model-comparison-lossfunc.png"), "epoch", "categorical crossentropy",
+        "Model comparison, loss", 20)
+#create_best_comparison_graphs() - deep always slower to converge
+#create_relu_comparison_graphs() - seems to indicate that lossyrelu is only good for deep, potentially because of vanishing gradient problem although it is not formally proven,
+#   empirically suggested
+create_sigmoid_comparison_graphs()
+
+def create_perceptron_graphs():
+    create_and_save_graph_accuracy(
+        ["Logs\\perceptron-setosa-versicolor.csv", "Logs\\perceptron-setosa-virginicia.csv",
+         "Logs\\perceptron-versicolor-virginicia.csv"], ["setosa-versicolor", "setosa-virginicia", "versicolor-virginicia"],
+        os.path.join(os.path.abspath(os.getcwd()), "graphs\\perceptron-accuracy.png"), "epoch", "accuracy",
+        "Perceptrons", 20)
+    create_and_save_graph_lossFunc(
+        ["Logs\\perceptron-setosa-versicolor.csv", "Logs\\perceptron-setosa-virginicia.csv",
+         "Logs\\perceptron-versicolor-virginicia.csv"],
+        ["setosa-versicolor", "setosa-virginicia", "versicolor-virginicia"],
+        os.path.join(os.path.abspath(os.getcwd()), "graphs\\perceptron-lossFunc.png"), "epoch", "binary crossentropy",
+        "Perceptrons", 20)
+
+create_perceptron_graphs()
