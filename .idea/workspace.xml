@@ -2,17 +2,181 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fa70f08-4893-4744-a406-a56ce3fbc4bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shallow150-inspection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph-creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph-creator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/deep11lsigmoid-smooth20-activation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/deep11relu-smooth20-activation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/depth3leakyrelu-smooth20-activation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/depth3relu-smooth20-activation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/depth3sigmoid-smooth20-activation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/shallow150leakyrelu-smooth20-activation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/shallow150relu-smooth20-activation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/shallow150sigmoid-smooth20-activation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/150shallow.py" beforeDir="false" afterPath="$PROJECT_DIR$/150shallow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/deep12-0.00001-leakyrelu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/deep12-0.00001-relu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/deep12-0.00001-sigmoid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/deep12-0.0001-leakyrelu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/deep12-0.0001-relu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/deep12-0.0001-sigmoid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/deep12-0.001-leakyrelu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/deep12-0.001-relu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/deep12-0.001-sigmoid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/deep12-0.01-leakyrelu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/deep12-0.01-relu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/deep12-0.01-sigmoid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/deep12-0.1-leakyrelu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/deep12-0.1-relu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/deep12-0.1-sigmoid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/depth3-0.00001-leakyRelu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/depth3-0.00001-relu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/depth3-0.00001-sigmoid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/depth3-0.0001-leakyRelu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/depth3-0.0001-relu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/depth3-0.0001-sigmoid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/depth3-0.001-leakyRelu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/depth3-0.001-relu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/depth3-0.001-sigmoid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/depth3-0.01-leakyRelu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/depth3-0.01-relu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/depth3-0.01-sigmoid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/depth3-0.1-leakyRelu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/depth3-0.1-relu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/depth3-0.1-sigmoid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/perceptron-setosa-versicolor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/perceptron-setosa-virginicia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/perceptron-versicolor-virginicia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-0.00001-leakyRelu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-0.00001-relu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-0.00001-sigmoid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-0.0001-leakyRelu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-0.0001-relu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-0.0001-sigmoid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-0.001-leakyRelu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-0.001-relu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-0.001-sigmoid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-0.01-leakyRelu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-0.01-relu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-0.01-sigmoid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-0.1-leakyRelu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-0.1-relu.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-0.1-sigmoid.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-leakyRelu-activations-processed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-leakyRelu-activations-raw.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-relu-activations-processed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-relu-activations-raw.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-sigmoid-activations-processed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-sigmoid-activations-raw.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep-12-relu.py" beforeDir="false" afterPath="$PROJECT_DIR$/deep-12-relu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep-12.py" beforeDir="false" afterPath="$PROJECT_DIR$/deep-12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_weight_logs/000001leakyrelu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_weight_logs/000001relu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_weight_logs/000001sigmoid.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_weight_logs/00001leakyrelu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_weight_logs/00001relu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_weight_logs/00001sigmoid.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_weight_logs/0001leakyrelu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_weight_logs/0001relu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_weight_logs/0001sigmoid.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_weight_logs/001leakyrelu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_weight_logs/001relu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_weight_logs/001sigmoid.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_weight_logs/01leakyrelu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_weight_logs/01relu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deep_weight_logs/01sigmoid.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/depth3.py" beforeDir="false" afterPath="$PROJECT_DIR$/depth3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/deep11-acivation-funcs-smooth20-accuracy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/deep11-acivation-funcs-smooth20-lossfunc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/deep11leakyrelu-smooth20-activity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/deep11leakyrelu-smooth20-lossFunc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/deep11lsigmoid-smooth20-activity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/deep11lsigmoid-smooth20-lossFunc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/deep11relu-smooth20-activity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/deep11relu-smooth20-lossFunc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/depth3-acivation-funcs-smooth20-accuracy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/depth3-activation-funcs-smooth20-lossfunc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/depth3leakyrelu-smooth20-activity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/depth3leakyrelu-smooth20-lossFunc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/depth3relu-smooth20-activity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/depth3relu-smooth20-lossFunc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/depth3sigmoid-smooth20-activity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/depth3sigmoid-smooth20-lossFunc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/perceptron-accuracy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/perceptron-lossFunc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/shallow150-acivation-funcs-smooth20-accuracy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/shallow150-activation-funcs-smooth20-lossfunc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/shallow150leakyrelu-smooth20-activity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/shallow150leakyrelu-smooth20-lossFunc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/shallow150relu-smooth20-activity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/shallow150relu-smooth20-lossFunc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/shallow150sigmoid-smooth20-activity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/shallow150sigmoid-smooth20-lossFunc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/sigmoid-model-comparison-accuracy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/sigmoid-model-comparison-lossfunc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep000001-leakyrelu/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep000001-leakyrelu/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep000001-leakyrelu/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep000001-relu/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep000001-relu/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep000001-relu/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep000001-sigmoid/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep000001-sigmoid/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep000001-sigmoid/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep00001-leakyrelu/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep00001-leakyrelu/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep00001-leakyrelu/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep00001-relu/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep00001-relu/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep00001-relu/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep00001-sigmoid/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep00001-sigmoid/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep00001-sigmoid/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep0001-leakyrelu/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep0001-leakyrelu/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep0001-leakyrelu/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep0001-relu/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep0001-relu/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep0001-relu/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep0001-sigmoid/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep0001-sigmoid/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep0001-sigmoid/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep001-leakyrelu/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep001-leakyrelu/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep001-leakyrelu/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep001-relu/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep001-relu/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep001-relu/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep001-sigmoid/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep001-sigmoid/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep001-sigmoid/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep01-leakyrelu/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep01-leakyrelu/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep01-leakyrelu/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep01-relu/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep01-relu/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep01-relu/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep01-sigmoid/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep01-sigmoid/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/deep01-sigmoid/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/depth3-leakyRelu/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/depth3-leakyRelu/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/depth3-leakyRelu/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/depth3-relu/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/depth3-relu/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/depth3-relu/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/depth3-sigmoid/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/depth3-sigmoid/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/depth3-sigmoid/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/perceptron-setosa-versicolor/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/perceptron-setosa-versicolor/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/perceptron-setosa-versicolor/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/perceptron-setosa-virginicia/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/perceptron-setosa-virginicia/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/perceptron-setosa-virginicia/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/perceptron-versicolor-virginicia/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/perceptron-versicolor-virginicia/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/perceptron-versicolor-virginicia/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/shallow150-leakyRelu/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/shallow150-leakyRelu/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/shallow150-leakyRelu/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/shallow150-relu/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/shallow150-relu/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/shallow150-relu/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/shallow150-sigmoid/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/shallow150-sigmoid/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/shallow150-sigmoid/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/one_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/one_layer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,27 +212,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.shallow150-inspection">
-    <configuration name="150shallow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="maskinlæring" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/150shallow.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="deep-12-relu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="maskinlæring" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,6 +275,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="one_layer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="maskinlæring" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/one_layer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="shallow150-inspection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="maskinlæring" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,8 +321,8 @@
       <list>
         <item itemvalue="Python.shallow150-inspection" />
         <item itemvalue="Python.graph-creator" />
+        <item itemvalue="Python.one_layer" />
         <item itemvalue="Python.depth3" />
-        <item itemvalue="Python.150shallow" />
         <item itemvalue="Python.deep-12-relu" />
       </list>
     </recent_temporary>
@@ -193,10 +357,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602939750109" />
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603451813384">
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603454184498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603451813384" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603454184498" />
     <state x="173" y="274" key="#xdebugger.XInspectDialog" timestamp="1603450827069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -209,46 +373,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602861632126" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1603451815375">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1603455133792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602959173223" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603451815375" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1603451815374">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603455133792" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1603455133792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602959173223" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603451815374" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1603451815374">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603455133792" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1603455133792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602959173223" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603451815374" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1603451815374">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603455133792" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1603455133792">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602959173223" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603451815374" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1603450966274">
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603455133792" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1603454160039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602959173214" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603450966274" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1603450966274">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603454160039" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1603454160039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602959173214" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603450966274" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1603450966274">
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603454160039" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1603454160039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602959173214" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603450966274" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1603450966274">
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603454160039" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1603454160039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602959173214" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603450966274" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603454160039" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1603308112724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

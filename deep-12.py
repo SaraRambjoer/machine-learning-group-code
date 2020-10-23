@@ -3,13 +3,13 @@ import tensorflow as tf
 from tensorflow import keras
 import pandas
 import copy
-from sklearn.model_selection import cross_val_score
-from sklearn.model_selection import KFold
+from sklearn.preprocessing import scale
 from sklearn.preprocessing import LabelEncoder
 tf.keras.backend.set_floatx('float64')
 # Actually deep11 but whatever, refactor
 iris_flower_dataset = pandas.read_csv('Data/IRIS.csv')
 x = iris_flower_dataset.drop(["species"], axis=1) # Create a dataset with only values
+x = scale(x)
 y = iris_flower_dataset["species"].map({'Iris-setosa': 0, 'Iris-versicolor': 1, 'Iris-virginica': 2}) # Create a dataset with only species and map them to integer values
 
 # Encode y
