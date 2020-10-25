@@ -1,0 +1,24 @@
+First code lines written with help of following keras introduction:
+https://www.kaggle.com/mehmetburakeker/iris-flower-classification-using-keras
+
+The following stack overflow threads were used during development:
+https://stackoverflow.com/questions/35945467/python-store-function-in-variable
+https://stackoverflow.com/questions/41761757/keras-model-not-saving
+https://stackoverflow.com/questions/42039548/how-to-check-the-weights-after-every-epoc-in-keras-model
+https://stackoverflow.com/questions/24560298/python-numpy-valueerror-operands-could-not-be-broadcast-together-with-shapes
+https://stackoverflow.com/questions/976882/shuffling-a-list-of-objects
+https://stackoverflow.com/questions/9301782/need-to-reset-git-branch-to-origin-version
+https://stackoverflow.com/questions/59680019/keras-categorical-cross-entropy-softmax-input-dim-size-error
+https://stackoverflow.com/questions/55388650/categorical-labels-using-cross-entropy-loss-accuracy-does-not-change-deep-lea
+https://stackoverflow.com/questions/53503389/how-to-set-parameters-in-keras-to-be-non-trainable
+https://stackoverflow.com/questions/45768262/numpy-equivalent-of-if-else-without-loop
+https://stackoverflow.com/questions/19752915/matplotlib-slow-with-large-data-sets-how-to-enable-decimation
+https://stackoverflow.com/questions/3430372/how-do-i-get-the-full-path-of-the-current-files-directory
+https://stackoverflow.com/questions/11082831/matplotlib-pyplot-how-to-name-different-lines-in-the-same-plot
+https://stackoverflow.com/questions/35050753/how-big-should-batch-size-and-number-of-epochs-be-when-fitting-a-model-in-keras
+https://stackoverflow.com/questions/40708169/how-to-initialize-biases-in-a-keras-model
+https://stackoverflow.com/questions/46817085/keras-interpreting-the-output-of-get-weights
+https://stackoverflow.com/questions/61046870/how-to-save-weights-of-keras-model-for-each-epoch
+
+The primary resource used during development was the Keras documentation:
+https://keras.io/

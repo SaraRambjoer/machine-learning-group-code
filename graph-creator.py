@@ -337,8 +337,8 @@ def create_relu_comparison_graphs():
         os.path.join(os.path.abspath(os.getcwd()),
                      "graphs\\relu-model-comparison-lossfunc.png"), "epoch", "categorical crossentropy",
         "Model comparison, loss", 20)
-#create_best_comparison_graphs() - deep always slower to converge
-#create_relu_comparison_graphs() - seems to indicate that lossyrelu is only good for deep, potentially because of vanishing gradient problem although it is not formally proven,
+create_best_comparison_graphs() #- deep always slower to converge
+create_relu_comparison_graphs() #- seems to indicate that lossyrelu is only good for deep, potentially because of vanishing gradient problem although it is not formally proven,
 #   empirically suggested
 create_sigmoid_comparison_graphs()
 

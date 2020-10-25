@@ -2,49 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fa70f08-4893-4744-a406-a56ce3fbc4bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/credits.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/perceptron-setosa-versicolor.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/perceptron-setosa-virginicia.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/perceptron-versicolor-virginicia.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-leakyRelu-activations-processed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-leakyRelu-activations-raw.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-relu-activations-processed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-relu-activations-raw.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-sigmoid-activations-processed.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shallow150-sigmoid-activations-raw.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/graph-creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph-creator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/deep11-acivation-funcs-smooth20-accuracy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/deep11-acivation-funcs-smooth20-lossfunc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/deep11leakyrelu-smooth20-activity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/deep11leakyrelu-smooth20-lossFunc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/deep11lsigmoid-smooth20-activity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/deep11lsigmoid-smooth20-lossFunc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/deep11relu-smooth20-activity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/deep11relu-smooth20-lossFunc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/depth3-acivation-funcs-smooth20-accuracy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/depth3-activation-funcs-smooth20-lossfunc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/depth3leakyrelu-smooth20-activity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/depth3leakyrelu-smooth20-lossFunc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/depth3relu-smooth20-activity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/depth3relu-smooth20-lossFunc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/depth3sigmoid-smooth20-activity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/depth3sigmoid-smooth20-lossFunc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/perceptron-accuracy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/perceptron-lossFunc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/shallow150-acivation-funcs-smooth20-accuracy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/shallow150-activation-funcs-smooth20-lossfunc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/shallow150leakyrelu-smooth20-activity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/shallow150leakyrelu-smooth20-lossFunc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/shallow150relu-smooth20-activity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/shallow150relu-smooth20-lossFunc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/shallow150sigmoid-smooth20-activity.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/shallow150sigmoid-smooth20-lossFunc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/sigmoid-model-comparison-accuracy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/sigmoid-model-comparison-lossfunc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/perceptron-setosa-versicolor/saved_model.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/perceptron-setosa-versicolor/variables/variables.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/perceptron-setosa-versicolor/variables/variables.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/perceptron-setosa-virginicia/saved_model.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/perceptron-setosa-virginicia/variables/variables.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/perceptron-setosa-virginicia/variables/variables.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/perceptron-versicolor-virginicia/saved_model.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/perceptron-versicolor-virginicia/variables/variables.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/perceptron-versicolor-virginicia/variables/variables.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/one_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/one_layer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/deep11relu-smooth20-activity.png" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/deep11relu-smooth20-activity.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +46,7 @@
       <recent name="C:\Users\jonod\PycharmProjects\maskinlæring\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.graph-creator">
+  <component name="RunManager" selected="Python.shallow150-inspection">
     <configuration name="deep-12-relu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="maskinlæring" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,9 +154,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.shallow150-inspection" />
         <item itemvalue="Python.graph-creator" />
         <item itemvalue="Python.one_layer" />
-        <item itemvalue="Python.shallow150-inspection" />
         <item itemvalue="Python.depth3" />
         <item itemvalue="Python.deep-12-relu" />
       </list>
@@ -225,9 +192,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602939750109" />
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603454184498">
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603648082110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603648082110" />
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603454184498" />
     <state x="173" y="274" key="#xdebugger.XInspectDialog" timestamp="1603450827069">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -241,46 +209,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602861632126" />
-    <state width="1899" height="187" key="GridCell.Tab.0.bottom" timestamp="1603486202155">
+    <state width="1899" height="187" key="GridCell.Tab.0.bottom" timestamp="1603648085964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="187" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603648085964" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602959173223" />
-    <state width="1899" height="187" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603486202155" />
-    <state width="1899" height="187" key="GridCell.Tab.0.center" timestamp="1603486202155">
+    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603486312903" />
+    <state width="1899" height="187" key="GridCell.Tab.0.center" timestamp="1603648085964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="187" key="GridCell.Tab.0.center/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603648085964" />
     <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602959173223" />
-    <state width="1899" height="187" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603486202155" />
-    <state width="1899" height="187" key="GridCell.Tab.0.left" timestamp="1603486202155">
+    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603486312903" />
+    <state width="1899" height="187" key="GridCell.Tab.0.left" timestamp="1603648085964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="187" key="GridCell.Tab.0.left/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603648085964" />
     <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602959173223" />
-    <state width="1899" height="187" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603486202155" />
-    <state width="1899" height="187" key="GridCell.Tab.0.right" timestamp="1603486202155">
+    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603486312903" />
+    <state width="1899" height="187" key="GridCell.Tab.0.right" timestamp="1603648085964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="187" key="GridCell.Tab.0.right/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603648085964" />
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602959173223" />
-    <state width="1899" height="187" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603486202155" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1603485917152">
+    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603486312903" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1603486312903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602959173214" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603485917152" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1603485917151">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603486312903" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1603486312903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602959173214" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603485917151" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1603485917151">
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603486312903" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1603486312903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602959173214" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603485917151" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1603485917152">
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603486312903" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1603486312903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1602959173214" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603485917152" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603486312903" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1603308112724">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -289,9 +261,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1602947340368" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1603482456494">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1264" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1603635765301">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1264" y="345" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/1920.0.1440.860/0.0.1920.1040@-1920.0.1920.1040" timestamp="1603635765301" />
     <state x="-1264" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@-1920.0.1920.1040" timestamp="1603304015576" />
     <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1603482456494" />
     <state x="-1151" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602954835360">
