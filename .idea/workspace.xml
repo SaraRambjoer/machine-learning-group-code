@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fa70f08-4893-4744-a406-a56ce3fbc4bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Logs/Naming_conventions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs/Graph naming conventions.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avgChangeByLayer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/avgChangeByLayer.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Sepals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/petals.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
