@@ -28,3 +28,4 @@ per layer but we dropped this from the scope of the project - suspected bugs
 * one_layer.py: Contains code for training perceptrons - our own implementation
 * shallow150-inspection.py: Generates data about how many activations there were per training sample
 for shallow neural net. 
+* visualiseDataSet.py: Generates scatterplots of the dataset a long all possible axis combinations.
