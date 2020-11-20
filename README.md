@@ -29,3 +29,16 @@ per layer but we dropped this from the scope of the project - suspected bugs
 * shallow150-inspection.py: Generates data about how many activations there were per training sample
 for shallow neural net. 
 * visualiseDataSet.py: Generates scatterplots of the dataset a long all possible axis combinations.
+
+
+Note on reproducability: 
+- 
+To reproduce the experiments the following steps can be taken: 
+1. Run 150shallow.py, deep-12.py, deep-12-relu.py, one_layer.py (perceptrons), and depth3.py. 
+2. Run graph-creator.py
+3. Run shallow150-inspection.py 
+
+After these steps have been taken the models will have been re-trained and graphs and logfiles will have been created
+for the new models. When it comes to hyperparameter selection and graphs this is done by hand/not automatically, 
+meaning that if other hyperparameters were to perform better than the ones in the experiment some of the graph
+generating code will have to be changed to make the graphs reflect this. 

@@ -347,7 +347,7 @@ def create_perceptron_graphs():
         ["Logs\\perceptron-setosa-versicolor.csv", "Logs\\perceptron-setosa-virginicia.csv",
          "Logs\\perceptron-versicolor-virginicia.csv"], ["setosa-versicolor", "setosa-virginica", "versicolor-virginica"],
         os.path.join(os.path.abspath(os.getcwd()), "graphs\\perceptron-accuracy.png"), "epoch", "accuracy",
-        "Perceptrons", 10)
+        "Perceptcmrons", 10)
     create_and_save_graph_lossFunc(
         ["Logs\\perceptron-setosa-versicolor.csv", "Logs\\perceptron-setosa-virginicia.csv",
          "Logs\\perceptron-versicolor-virginicia.csv"],
