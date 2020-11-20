@@ -12,32 +12,89 @@ colors = {'Iris-setosa':'r', 'Iris-versicolor':'g', 'Iris-virginica':'b'}
 
 #plot the petals
 
-fig, pet = plt.subplots()
-
 for i in range(1,len(iris['petal_length'])):
-    pet.scatter(iris['petal_length'][i], iris['petal_width'][i],color=colors[iris['species'][i]])
+    plt.scatter(iris['petal_length'][i], iris['petal_width'][i],color=colors[iris['species'][i]])
 
-pet.set_title('Petals')
-pet.set_xlabel('petal length')
-pet.set_ylabel('petal width')
-
-pet.axes.xaxis.set_ticks([])
-pet.axes.yaxis.set_ticks([])
+plt.xlabel('petal length')
+plt.ylabel('petal width')
+plt.xticks(rotation=90)
+for label in plt.gca().get_xaxis().get_ticklabels()[::2]:
+    label.set_visible(False)
+plt.savefig(os.path.join(os.path.abspath(os.getcwd()),
+                                                "graphs\\petals_datasetvisualization.png"))
 
 #plot the sepals
 
-fig, sep = plt.subplots()
+plt.clf()
 
 for i in range(1,len(iris['sepal_length'])):
-    sep.scatter(iris['sepal_length'][i], iris['sepal_width'][i],color=colors[iris['species'][i]])
+    plt.scatter(iris['sepal_length'][i], iris['sepal_width'][i],color=colors[iris['species'][i]])
 
-sep.set_title('Sepals')
-sep.set_xlabel('Sepal length')
-sep.set_ylabel('Sepal width')
+plt.xlabel('Sepal length')
+plt.ylabel('Sepal width')
+plt.xticks(rotation=90)
+for label in plt.gca().get_xaxis().get_ticklabels()[::2]:
+    label.set_visible(False)
+plt.savefig(os.path.join(os.path.abspath(os.getcwd()),
+                                                "graphs\\sepals_datasetvisualization.png"))
 
-sep.axes.xaxis.set_ticks([])
-sep.axes.yaxis.set_ticks([])
+plt.clf()
+
+for i in range(1,len(iris['sepal_length'])):
+    plt.scatter(iris['sepal_length'][i], iris['petal_length'][i],color=colors[iris['species'][i]])
+
+plt.xlabel('Sepal length')
+plt.ylabel('Petal length')
+plt.xticks(rotation=90)
+for label in plt.gca().get_xaxis().get_ticklabels()[::2]:
+    label.set_visible(False)
+for label in plt.gca().get_yaxis().get_ticklabels()[::2]:
+    label.set_visible(False)
+plt.savefig(os.path.join(os.path.abspath(os.getcwd()),
+                                                "graphs\\length_datasetvisualization.png"))
 
 
-plt.show()
+plt.clf()
+
+for i in range(1,len(iris['sepal_length'])):
+    plt.scatter(iris['sepal_width'][i], iris['petal_width'][i],color=colors[iris['species'][i]])
+
+plt.xlabel('Sepal width')
+plt.ylabel('Petal width')
+plt.xticks(rotation=90)
+for label in plt.gca().get_xaxis().get_ticklabels()[::2]:
+    label.set_visible(False)
+plt.savefig(os.path.join(os.path.abspath(os.getcwd()),
+                                                "graphs\\width_datasetvisualization.png"))
+
+plt.clf()
+
+for i in range(1,len(iris['sepal_length'])):
+    plt.scatter(iris['sepal_width'][i], iris['petal_length'][i],color=colors[iris['species'][i]])
+
+plt.xlabel('Sepal width')
+plt.ylabel('Petal length')
+plt.xticks(rotation=90)
+for label in plt.gca().get_xaxis().get_ticklabels()[::2]:
+    label.set_visible(False)
+for label in plt.gca().get_yaxis().get_ticklabels()[::2]:
+    label.set_visible(False)
+plt.savefig(os.path.join(os.path.abspath(os.getcwd()),
+                                                "graphs\\sepal_width_petal_length_datasetvisualization.png"))
+
+plt.clf()
+
+for i in range(1,len(iris['sepal_length'])):
+    plt.scatter(iris['sepal_length'][i], iris['petal_width'][i],color=colors[iris['species'][i]])
+
+plt.xlabel('Sepal length')
+plt.ylabel('Petal width')
+plt.xticks(rotation=90)
+for label in plt.gca().get_xaxis().get_ticklabels()[::2]:
+    label.set_visible(False)
+for label in plt.gca().get_yaxis().get_ticklabels()[::2]:
+    label.set_visible(False)
+plt.savefig(os.path.join(os.path.abspath(os.getcwd()),
+                                                "graphs\\sepal_length_petal_width_datasetvisualization.png"))
+
 
